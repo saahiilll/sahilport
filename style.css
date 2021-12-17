@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+/* header */
+
+header{
+    background-color: rgb(41, 41, 41);
+    color: #7a6f81;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+header h1,h2{
+    padding: 2%;
+}
+
+/* logo */
+.logo{
+    
+text-align: center;
+margin-top: 20px;
+    
+}
+.ficon{
+    height: 50px;
+    width: 50px;
+    
+}
+.iicon{
+    height: 50px;
+    width: 50px;
+    
+
+}
+.licon{
+    height: 33px;
+    width: 33px;
+    margin-bottom: 9px;
+    margin-left: 5px;
+
+}
+.gicon{
+    height: 36px;
+    width: 36px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.profileimg{
+padding: 3%;
+background-color: rgb(161, 169, 168);
+}
+.profileimg img{
+    width: 25%;
+    
+    border-radius: 30%;
+    
+}
+/* about me */
+.aboutme{
+    background-color: rgb(161, 169, 168);
+    padding-bottom: 3%;
+    color: rgb(44, 43, 43);
+}
+.aboutme h2{
+    font-size: 2em;
+    padding: 0.4em;
+}
+
+.aboutme li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(51, 35, 35);
+    padding: 3px;
+}
+/* skills */
+.skill{
+    background-color: rgba(228, 226, 226, 0.946);
+    padding: 2%;
+}
+.skill h2{
+    padding: 2%;
+}
+.skill li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(33, 32, 32);
+    padding: 3px;
+}
+/* hobbies */
+.hobbies{
+    background-color: rgb(161, 169, 168);
+    padding: 2%;
+}
+.hobbies h2{
+    padding: 2%;
+}
+.hobbies li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(22, 22, 22);
+    padding: 3px;
+}
+/* map */
+ .map{
+     padding: 3%;
+     background-color: rgb(220, 215, 215);
+ }
+ .box{
+     padding: 2%;
+     background-color: rgb(41, 41, 41);
+ }
+ .box a{
+     text-decoration: none;
+     color: rgb(148, 148, 148);
+ }
+/* footer */
+ .footer{
+     padding: 3%;
+     background-color: rgb(21, 20, 20);
+     color: whitesmoke;
+ }
