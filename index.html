@@ -1,93 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sahil</title>
-    <link href="style.css"  rel="stylesheet">
+    <title>Profile</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/sahiledureka.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
+
 <body>
-<header>
-<center>
-    <h1>
-        Sahil Dahake 
-    </h1>
-    <h3>Full Stack Web Developer Intern</h3>
-</center>
+    <div class="container">
+        <nav id="navbar">
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="navin">
+                <li class="navi"><a href="#about">About</a></li>
+                <li class="navi"><a href="#skill">Skills</a></li>
+                <li class="navi"><a href="#contact">Contact</a></li>
+                <li class="navi"><a href="#project">Project</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+        <header class="header">
+            <p class="iam">Hey I Am</p>
+            <h1 class="mynae">Sahil Dahake</h1>
+            <h2 class="post">Full Stack Web Developer Intern</h2>
+
+        </header>
+        <!-- <br> -->
+        <!-- <hr> -->
+        <!-- <center> -->
+        <div class="about" id="about">
+            <h2>About Me</h2>
+            <div class="aboutcontent">
+
+                <div class="aboutinfo">
+                    <p>
+                        I am passionate about my work. Because I love what i do, i have a steady source of motivation
+                        that
+                        driven me to do my best. I am ambitious and driven. I thrive on challenge and constantly set
+                        goals for
+                        myself, so i have something to strive towards.
+                    </p>
+                    <a href="#contact" class="contactbtn">Contact Me</a>
+                </div>
+                <div class="aboutimg">
+                    <img src="images/6594483133050552326_avatar.png" alt=""> 
+                </div>
+            </div>
+        </div>
+
+        <!-- </center> -->
+        <!-- <br>
+        <hr>
+        <br> -->
 
 
-<div class="logo">
-    
-        <a href="https://facebook.com"  target="_blank">
-            <img src="images/ficon.png" alt="facebook" class="ficon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/iicon.png" alt="instagram" class="iicon">
-        </a>
-        <a href="https://linkedin.com" target="_blank">
-            <img src="images/linkedInicon.png" alt="linkedin" class="licon">
-        </a>
-        <a href="https://github.com" target="_blank">
-            <img src="images/githubicon.png" alt="github" class="gicon">
-        </a>
-
-        
-    
-</div>
-</header>    
-
-<!-- profile pic -->
-<div class="profileimg">
-    <center>
-        <img src="images/recent.jpg"  height="300" width=300 alt="my image"> 
-    </center>
-</div>
-
-
-<!-- about me div start -->
-<div class="aboutme">
-    
-    <center>
-        <h2>About Me</h2>
-        
-            <li>I am able to handle multiple tasks on a daily basis.</li>
-            <li>I use a creative approach to problem solve.</li>
-            <li>I am depentable person who is great at time management.</li>
-            <li>I am always energetic and eager to learn new skills.</li>
-        
-    </center>
-    </div>
-    <!-- about me div end -->
-    <!-- <hr> -->
-
-    <!-- skill div start -->
-    <div class="skill">
-        <center>
-
+        <div class="skill" id="skill">
             <h2>Skills</h2>
-             <li>Html</li>
-             <li>Css</li>
-             <li>Javascript</li>
-            <li>Bootstrap</li>
-            </center>
-        </div>
-        <!-- skill div end -->
+            <div class="skillimg">
 
-        <!-- hobbies div start -->
-        <div class="hobbies">
-            
-            <center>
-                
-                <h2>Hobbies</h2>   
-                <li>Creative Writing</li>
-                <li>Blogging</li>
-                <li>Learning New Technologies</li>
-                <li>Singing</li> 
-            </center>
+                <img src="./IMAGES/c.png" alt="c">
+                <img src="./IMAGES/cpp.png" alt="cpp">
+                <img src="./IMAGES/html.png" alt="html">
+                <img src="./IMAGES/css.png" alt="css">
+                <img src="./IMAGES/js.png" alt="js">
+                <img src="./IMAGES/java.png" alt="java">
+            </div>
         </div>
-        <!-- hobbies div end -->
-        <!-- project div start -->
+
+        <!-- <br> -->
+        <!-- <hr> -->
+
+
+        <div class="hobby">
+
+            <h2>Hobbies</h2>
+
+            <div class="hobbiesimg">
+                <img src="./IMAGES/cricket.png" alt="cricket">
+                <img src="./IMAGES/football.png" alt="football">
+                <img src="./IMAGES/games.png" alt="video games">
+                <img src="./IMAGES/bike.png" alt="bike riding">
+                <img src="./IMAGES/book.png" alt="book reading">
+                <img src="" alt="">
+            </div>
+
+        </div>
+
         <section id="project">
             <h2>Project</h2>
             <div class="project-in">
@@ -115,37 +118,52 @@
             </div>
         </section>
         <!-- <hr> -->
-    
+        <div id="contact">
+            <div class="contact-form">
+                <h2>Contact Me</h2>
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="text" placeholder="Enter Your Mail">
+                    <textarea name="" placeholder="Type Mesage here" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="form-btn">Send Me</button>
+                </form>
+            </div>
+            <div class="location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238540.6741231227!2d77.62165607070978!3d20.904350871066775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4a67774bc15%3A0x3c7b3f78ca4f9635!2sAmravati%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1637649214051!5m2!1sen!2sin"
+                    max-width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <!-- <br> -->
 
-<div class="map">
-    <center><h2>How To Reach Me</h2></center>
+        <!-- <center>
+            
+        </center> -->
+        <!-- <br> -->
 
-    <center>
-        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238540.6741231227!2d77.62165607070978!3d20.904350871066775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4a67774bc15%3A0x3c7b3f78ca4f9635!2sAmravati%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1637649214051!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </center>
-</div>
-    
+        <!-- <hr> -->
+        <footer>
+            <center>
+                <h3>Follow Me On</h3>
+                <div class="footerimg">
 
-<div class="box">
-    <center>
+                    <a href="https://www.facebook.com" target="_blank"><img src="./IMAGES/fb.png"
+                            alt="facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img
+                            src="./IMAGES/instagram.png" alt="instagram"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img
+                            src="./IMAGES/ld.png" alt="linkedin"></a>
+                    <a href="https://www.github.com" target="_blank">
+                        <img src="images/githubicon.png" alt="github">
+                    </a>
+                </div>
+            </center>
+        </footer>
 
-        <h2>Contact Info</h2>
-        <a href="#"> <i class="fas fa-phone"></i> +91 9359519346 </a><br> <br>
-        
-        <a href="#"> <i class="fas fa-envelope"></i> sahildahake1999@gmail.com </a><br> <br>
-        
-        <a href="#"> <i class="fas fa-map-marker-alt"></i> Amravati, Maharashtra, India - 444605 </a>
-    </center>
-</div>
+    </div>
 
-<div class="footer">
-    <center>
-
-        <footer>&copy;All Rights Reserved</footer>
-    </center>
-</div>
-
-    
+    <script src="main.js">
+    </script>
 </body>
+
 </html>
